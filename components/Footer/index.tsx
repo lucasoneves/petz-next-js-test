@@ -1,10 +1,14 @@
 import styles from './Footer.module.scss';
 
-export default function Footer() {
+type FooterTypes = {
+  description?: string
+}
+
+export default function Footer({description}: FooterTypes) {
   return (
     <footer className={styles.footer}>
       <p>
-        Todas as marcas e ilustrações utilizadas são de seus respectivos donos.
+        {description}
       </p>
     </footer>
   );

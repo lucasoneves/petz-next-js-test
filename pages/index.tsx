@@ -1,11 +1,7 @@
-import { Inter } from '@next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import HomeContent from '../components/HomeContent'
 
 export default function Home() {
   return (
-    <>
-      <h2>Index</h2>
-    </>
+    <HomeContent />
   )
 }

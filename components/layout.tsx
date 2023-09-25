@@ -17,7 +17,7 @@ export default function Layout({ children }: { children: ReactNode }) {
       </Head>
       <Header />
       <main>{children}</main>
-      <Footer />
+      <Footer description="Todas as marcas e ilustrações utilizadas são de seus respectivos donos." />
     </>
   );
 }

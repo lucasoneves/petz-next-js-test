@@ -1,0 +1,17 @@
+.home-content {
+  background: url("../../public/images/pokemon-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0;
+  height: calc(100vh - (120px - 72px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  max-width: 510px;
+}
