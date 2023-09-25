@@ -1,0 +1,19 @@
+.logo {
+  // width: 260px;
+  background: var(--main-red);
+  padding: 0 15px;
+  border-radius: 50px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 260px;
+
+  h2 {
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+  }
+}

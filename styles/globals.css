@@ -8,6 +8,14 @@
 
 :root {
   --main-red: #e40f0f;
-  --text: #1d1d1d;
+  --text-primary: #1d1d1d;
   --text-lighten: #747474;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul, ol {
+  list-style: none;
 }
