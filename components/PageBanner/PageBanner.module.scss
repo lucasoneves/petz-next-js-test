@@ -1,0 +1,28 @@
+.page-banner {
+  background: var(--main-red);
+  min-height: 187px;
+  padding-top: 30px;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.breadcrumb {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.description {
+  font-size: 14px;
+  font-weight: 400;
+}
