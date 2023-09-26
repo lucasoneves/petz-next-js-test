@@ -1,6 +1,7 @@
 .logo {
   width: 100%;
   max-width: 260px;
+  
 
   a {
     background: var(--main-red);
@@ -11,19 +12,28 @@
     align-items: center;
     justify-content: flex-start;
     gap: 20px;
+    transition: all .3s linear;
+    width: 100%;
+  }
+
+  img {
+    width: 34px;
+    height: 34px;
   }
 
   h2 {
     font-size: 20px;
     color: white;
     font-weight: 600;
+    word-wrap: normal;
   }
-}
 
-.logo-small {
-  @extend .logo;
-  a {
-    width: 60px;
-    justify-content: center;
+  &--small {
+    @extend .logo;
+      
+      a {
+        width: 60px;
+        justify-content: center;
+      }
   }
 }
