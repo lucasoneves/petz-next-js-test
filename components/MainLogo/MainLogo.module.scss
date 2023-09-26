@@ -1,5 +1,4 @@
 .logo {
-  // width: 260px;
   width: 100%;
   max-width: 260px;
 
@@ -18,5 +17,13 @@
     font-size: 20px;
     color: white;
     font-weight: 600;
+  }
+}
+
+.logo-small {
+  @extend .logo;
+  a {
+    width: 60px;
+    justify-content: center;
   }
 }

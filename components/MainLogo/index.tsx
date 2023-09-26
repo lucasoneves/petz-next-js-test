@@ -2,9 +2,13 @@ import Image from "next/image";
 import styles from "./MainLogo.module.scss";
 import Link from "next/link";
 
-export default function MainLogo() {
+type LogoTypes = {
+  expanded?: boolean
+}
+
+export default function MainLogo({expanded}: LogoTypes) {
   return (
-    <div className={styles.logo}>
+    <div className={`${expanded ? styles['logo'] : styles['logo-small']}`}>
       <Link href={"/"}>
         <Image
           src="/images/white-pokeball.svg"
@@ -12,7 +16,7 @@ export default function MainLogo() {
           width={37}
           height={34}
         />
-        <h2>Centro Pokémon</h2>
+        {expanded ? <h2>Centro Pokémon</h2> : ''}
       </Link>
     </div>
   );
