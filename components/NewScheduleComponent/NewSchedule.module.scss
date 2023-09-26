@@ -1,0 +1,49 @@
+.new-schedule {
+  max-width: 768px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.form {
+  max-width: 560px;
+  width: 100%;
+  margin: 35px auto;
+}
+
+.field {
+  min-height: 45px;
+  border-radius: 6px;
+  border: 1px solid #D5D5D5;
+  padding: 0 15px;
+  font-size: 14px;
+  background-color: transparent;
+  color: #747474;
+  width: 100%;
+}
+
+.field-label {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  margin: 10px 0;
+
+  &--lighten {
+    @extend .field-label;
+    font-weight: 500;
+    color: #747474;
+  }
+}
+
+.personal-info {
+  gap: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+  margin-bottom: 100px;
+}

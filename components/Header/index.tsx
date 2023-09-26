@@ -10,20 +10,22 @@ import { usePathname } from "next/navigation";
 
 export default function Header() {
   const pathname = usePathname();
-  const [expandedLogo, setExpandedLogo] = useState(pathname !== "/" ? false : true);
-  const [textVisible, setTextVisible] = useState(pathname !== "/" ? false : true);
+  const [expandedLogo, setExpandedLogo] = useState(false);
+  const [textVisible, setTextVisible] = useState(false);
   useEffect(() => {
 
     if (pathname !== "/") {
       setExpandedLogo(false);
       setTextVisible(false);
     } else {
-      setTextVisible(true);
+      setExpandedLogo(true)
       setTimeout(() => {
         setExpandedLogo(false);
         setTextVisible(false);
       }, 5000);
     }
+
+    console.log(pathname)
 
   }, [pathname]);
 

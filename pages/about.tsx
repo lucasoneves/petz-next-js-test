@@ -4,7 +4,7 @@ import styles from "../styles/Pages.module.scss";
 export default function About() {
   return (
     <>
-      <PageBanner />
+      <PageBanner pageTitle="Quem Somos" pageDescription="A maior rede de tratamento pokémon."/>
       <div className={styles["page-content"]}>
         <AboutComponent />
       </div>
