@@ -19,3 +19,7 @@ a {
 ul, ol {
   list-style: none;
 }
+
+button {
+  cursor: pointer;
+}

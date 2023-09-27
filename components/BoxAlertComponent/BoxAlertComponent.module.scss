@@ -1,0 +1,41 @@
+.box-alert {
+  background-color: rgba(223, 134, 134, 0.05);
+  border-radius: 8px;
+  border: 1px solid #DF8686;
+  width: 100%;
+  max-width: 408px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 30px 20px;
+  
+  h3.title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+}
+
+
+.button {
+  background-color: var(--main-red);
+  width: 100%;
+  max-width: 220px;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  min-height: 42px;
+  color: white;
+  border: transparent;
+  padding: 0 20px;
+}
+
+.message {
+  font-size: 14px;
+  color: #747474;
+  font-weight: 400;
+  text-align: center;
+}
