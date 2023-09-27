@@ -25,8 +25,6 @@ export default function Header() {
       }, 5000);
     }
 
-    console.log(pathname)
-
   }, [pathname]);
 
   function handleMouseLeave() {
